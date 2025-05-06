@@ -1,16 +1,31 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: #fff9f9;
-    color: #333;
+/* Make background fill the full page */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FDA0B6;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-header {
-    margin-top: 50px;
+/* Center the content */
+.container {
+  text-align: center;
+  padding: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: #c13584;
-    font-weight: bold;
+  color: #fff;
+  background-color: #c13584;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #a32d6d;
 }
